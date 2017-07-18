@@ -38,7 +38,7 @@ def create_tables():
       longitude VARCHAR(25), 
       lotsizesquarefeet VARCHAR(25), 
       numberofstories VARCHAR(25), 
-      parcelid VARCHAR(25), 
+      parcelid VARCHAR(25) UNIQUE, 
       poolcnt VARCHAR(25), 
       poolsizesum VARCHAR(25), 
       pooltypeid10 VARCHAR(25), 
